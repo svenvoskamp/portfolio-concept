@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Hatton';
+  src: url('../../static/fonts/Hatton-Bold.woff2') format('woff2'),
+    url('../../static/fonts/Hatton-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Telegraf';
+  src: url('../../static/fonts/Telegraf-Bold.woff2') format('woff2'),
+    url('../../static/fonts/Telegraf-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Telegraf';
+  src: url('../../static/fonts/Telegraf-Regular.woff2') format('woff2'),
+    url('../../static/fonts/Telegraf-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.placeholder {
+  position: absolute;
+  width: 50.6vw;
+}
+
+.img--flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.div__title {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.div__concept {
+  position: absolute;
+  justify-content: space-between;
+  width: 50vw;
+  display: flex;
+  bottom: 8rem;
+}
+
+.span__role,
+.a__url {
+  font-family: 'Telegraf';
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.a__url {
+  text-decoration: underline;
+  pointer-events: all;
+}
+
+.p__role {
+  font-family: 'Telegraf';
+  font-size: 1.4rem;
+  font-weight: bold;
+
+  text-transform: uppercase;
+}
+
+.h1__title {
+  font-size: 5vw;
+  font-family: 'Hatton';
+  text-align: center;
+  top: 6.5rem;
+  width: 100%;
+  text-transform: uppercase;
+  overflow: hidden;
+  line-height: 1.1;
+  position: absolute;
+  z-index: 1;
+}
+
+.char {
+  display: inline-block;
+}
+
+nav {
+  position: fixed;
+  top: 2rem;
+  right: 4rem;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+}
+
+.li__nav {
+  font-family: 'Hatton';
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
